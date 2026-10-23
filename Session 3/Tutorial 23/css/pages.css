@@ -1,0 +1,11 @@
+
+/* Limiter la largeur du conteneur des articles */
+.conteneur-articles {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Ajouter de l'espace autour de la section */
+.section-articles {
+    padding: 80px 24px;
+}
