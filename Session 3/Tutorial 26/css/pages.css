@@ -1,0 +1,37 @@
+/* Conteneur des articles */
+.conteneur-articles {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Section des articles */
+.section-articles {
+    padding: 80px 24px;
+}
+
+/* Bannière d'accueil */
+.banniere-accueil {
+    padding: 96px 24px;
+    text-align: center;
+    background: #ffffff;
+
+    /* Effet de grille en arrière-plan */
+    background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
+    background-size: 24px 24px;
+}
+
+/* Titre de la bannière */
+.banniere-accueil h1 {
+    max-width: 850px;
+    margin: 0 auto;
+    font-size: 56px;
+    color: #0a2042;
+}
+
+/* Texte de la bannière */
+.banniere-accueil p {
+    max-width: 680px;
+    margin: 24px auto 0;
+    font-size: 17px;
+    color: #6b7280;
+}
