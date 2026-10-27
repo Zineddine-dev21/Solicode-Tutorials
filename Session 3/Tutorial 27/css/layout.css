@@ -1,0 +1,53 @@
+.banniere-accueil {
+    padding: 64px 24px;
+    text-align: center;
+    background: #ffffff;
+    background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
+    background-size: 24px 24px;
+}
+
+.banniere-accueil h1 {
+    margin: 20px auto;
+    font-size: 42px;
+    color: #0a2042;
+}
+
+.banniere-accueil p {
+    max-width: 680px;
+    margin: 0 auto;
+    color: #6b7280;
+    line-height: 1.6;
+}
+
+.conteneur-articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-articles {
+    padding: 64px 24px;
+}
+
+.contenu-article {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 48px 24px;
+    line-height: 1.8;
+}
+
+.image-article {
+    display: block;
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.article-date {
+    color: #6b7280;
+    font-size: 14px;
+}
