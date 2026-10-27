@@ -1,0 +1,19 @@
+
+/* Section des filtres de catégories */
+.filtre-categories {
+    margin: 64px 24px;
+    text-align: center;
+}
+
+.filtre-categories h2 {
+    margin: 0 0 20px;
+    color: #111827;
+    font-size: 18px;
+}
+
+/* Organisation des filtres avec Flexbox */
+.liste-filtres {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
